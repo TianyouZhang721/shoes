@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/cart.css">
+    <link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+	<header id="header"></header>
+	<section class="main">
+		<div class="my_cart">
+			<div class="my_cart_title">购物车</div>
+			<div class="cart_main">
+				<div class="tabs">
+					<ul class="clearfix">
+						<li>
+							<a href="javascript:;" class="current">自营商品(3)</a>
+						</li>
+						<li>
+							<a href="javascript:;">海淘商品(3)</a>
+						</li>
+					</ul>
+				</div>
+				<div class="contents">
+					<section id="cart_content1">
+						<div class="cart_content">
+							<div class="item_tb">
+								<table>
+									<tbody id="tbody1">
+										<tr>
+											<th style="border-bottom:none"></th>
+											<th style="text-align:center">
+												<label>
+													<input type="checkbox" class="i_chk">全选
+												</label>
+												商品
+											</th>
+											<th>单价(元)</th>
+											<th>数量</th>
+											<th>小计(元)</th>
+											<th>操作</th>
+										</tr>
+										<!-- <tr class="s_item">
+											<td>
+												<input type="checkbox" class="i_chk">
+											</td>
+											<td>
+												<div class="order_s">
+													<a href="#">
+														<img src="img/shoes/sm/1.jpg" alt="">
+													</a>
+													<a href="#" style="padding-top: 5px;">预售！Air Jordan 13 Altitude AJ13 黑绿珍珠鱼皮 414571-042</a>
+													<span>尺码：42.5&nbsp;&nbsp;&nbsp;</span>
+													<span>颜色：黑色</span>
+												</div>
+											</td>
+											<td style="text-align: center;">
+												<span>￥1269.00</span>
+											</td>
+											<td style="text-align: center;">
+												<span class="td_stock">
+													<a href="#" class="reduce">-</a>
+													<input type="text" class="tb_text" readonly="true" value="1">
+													<a href="#" class="add">+</a>
+												</span>
+											</td>
+											<td style="text-align: center;">
+												<span class="s_item_cost">¥2538.00</span>
+											</td>
+											<td style="text-align: center;">
+												<a class="s_item_del">删除</a>
+											</td>
+										</tr>
+ -->								</tbody>
+								</table>
+							</div>
+							<div class="cart_sum">
+								<div class="sum_operation clearfix">
+									<div class="fl">
+										<input type="checkbox" class="s_select_all">&nbsp;
+										<label>全选</label>
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+										<a class="s_del_select">删除选中的商品</a>
+									</div>
+									<div class="fr">
+										<span>
+											共<em id="s-select-quantity">4</em>件商品
+										</span>
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+										<span>商品总价（不含运费和优惠扣减）:</span>
+										<em class="s_total_cost">￥4105.00</em>
+									</div>
+								</div>
+								<div class="sum_btn clearfix">
+									<a href="javascript:;" id="s_bill_btn">去结算</a>
+								</div>
+								<div class="sum_products">
+									<a href="shopping.html">继续购物</a>
+								</div>
+							</div>
+						</div>
+						<div class="cart_empty s_hide">
+							<img src="img/icon/cart_empty.png" alt="">
+							<span>购物车空空如也~</span>
+						</div>
+					</section>
+					<section id="cart_content2">
+						<div class="cart_content">
+							<div class="item_tb">
+								<table>
+									<tbody id="tbody2">
+										<tr>
+											<th style="border-bottom:none"></th>
+											<th>
+												<label>
+													<input type="checkbox" class="i_chk">全选
+												</label>
+												商品
+											</th>
+											<th>单价(元)</th>
+											<th>数量</th>
+											<th>小计(元)</th>
+											<th>操作</th>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<div class="cart_sum">
+								<div class="sum_operation clearfix">
+									<div class="fl">
+										<input type="checkbox" class="s_select_all">&nbsp;
+										<label>全选</label>
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+										<a class="s_del_select">删除选中的商品</a>
+									</div>
+									<div class="fr">
+										<span>
+											共<em id="s-select-quantity">4</em>件商品
+										</span>
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+										<span>商品总价（不含运费和优惠扣减）:</span>
+										<em class="s_total_cost">￥4105.00</em>
+									</div>
+								</div>
+								<div class="sum_btn clearfix">
+									<a href="javascript:;" id="s_bill_btn">去结算</a>
+								</div>
+								<div class="sum_products">
+									<a href="shopping.html">继续购物</a>
+								</div>
+							</div>
+						</div>
+						<div class="cart_empty s_hide">
+							<img src="img/icon/cart_empty.png" alt="">
+							<span>购物车空空如也~</span>
+						</div>
+					</section>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer id="footer"></footer>
+	<script src="js/jquery-3.2.1.js"></script>
+	<script src="js/header.js"></script>
+	<script src="js/cart.js"></script>
+	<script src="js/footer.js"></script>
+</body>
+</html>

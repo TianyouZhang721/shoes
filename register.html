@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+	<header id="header"></header>
+	<div id="main">
+		<div class="clear box_register" id="register">
+			<div class="register_inner">
+				<div class="register_tabs">
+					<div class="tab_lv left">
+						<span></span>
+					</div>
+					<div class="tab_item tab_current">
+						<a class="login">登录 LOGIN</a>
+					</div>
+					<div class="tab_item">
+						<a class="register">注册 REGISTER</a>
+					</div>
+				</div>
+				<div class="register_panel disable">
+					<div class="panel_content">
+						<form id="reg_form">
+							<ul>
+								<li>
+									<input type="text" id="uname" name="uname" placeholder="用户名">
+								</li>
+								<li>
+									<input type="password" id="upwd" name="upwd" placeholder="密码">
+								</li>
+								<li>
+									<input type="password" id="cpwd" name="cpwd" placeholder="确认密码">
+								</li>
+								<li>
+									<input type="button" id="btnReg" value="注册">
+								</li>
+							</ul>
+						</form>
+					</div>
+				</div>
+				<div class="register_panel">
+					<div class="panel_content">
+						<form id="log_form">
+							<ul>
+								<li>
+									<input type="text" id="uname" name="uname" placeholder="用户名">
+								</li>
+								<li>
+									<input type="password" id="upwd" name="upwd" placeholder="密码">
+								</li>
+								<li>
+									<img id="setYzm"  title="看不清点击换一张" src="data/03_code_gg.php" />
+									<input id="yzm" type="text" class="form-control" placeholder="请输入验证码" required />
+								</li>
+								<li>
+									<input type="button" id="btnLog" value="登录">
+								</li>
+							</ul>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery-3.2.1.js"></script>
+	<script src="js/header.js"></script>
+	<script src="js/register.js"></script>
+	<script src="js/login.js"></script>
+</body>
+</html>
